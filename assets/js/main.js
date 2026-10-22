@@ -32,8 +32,8 @@
     if (lb && lb.open) caption();
   }
 
-  var saved = 'en';
-  try { saved = localStorage.getItem('hh-lang') || 'en'; } catch (e) {}
+  var saved = 'ar';
+  try { saved = localStorage.getItem('hh-lang') || 'ar'; } catch (e) {}
   var prefersAr = (navigator.language || '').toLowerCase().indexOf('ar') === 0;
   if (!saved) saved = prefersAr ? 'ar' : 'en';
   if (saved === 'ar') applyLang('ar');
