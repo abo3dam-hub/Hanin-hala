@@ -1,0 +1,1000 @@
+{
+  "generated": "2026-10-22T19:58:21.058Z",
+  "pages": {
+    "desktop": {
+      "title": "Hanin & Hala — Nails, Brows & Lashes · Tartus",
+      "lang": "en",
+      "dir": "ltr",
+      "scrollW": 1440,
+      "clientW": 1440,
+      "docH": 8034,
+      "h1count": 1,
+      "headings": [
+        "H1:Beauty, finished to the last detail.",
+        "H2:Two names, one standard.",
+        "H2:Four ways to feel like yourself.",
+        "H3:Nails & manicure",
+        "H3:Brows",
+        "H3:Lashes",
+        "H3:Pedicure & jacuzzi",
+        "H2:The details that speak.",
+        "H2:Confidence in the result is why you trust us.",
+        "H2:Come in. We’ll take it from here.",
+        "H3:Request an appointment"
+      ],
+      "imgs": [
+        {
+          "src": "logo-mark-560.webp",
+          "alt": "",
+          "w": 560,
+          "h": 627,
+          "ok": true
+        },
+        {
+          "src": "work-milky-mani-720.webp",
+          "alt": "Milky pearl manicure with a hand-painted heart, finished with a protective layer",
+          "w": 576,
+          "h": 717,
+          "ok": true
+        },
+        {
+          "src": "logo-mark-560.webp",
+          "alt": "",
+          "w": 560,
+          "h": 627,
+          "ok": true
+        },
+        {
+          "src": "work-feet-heart-720.webp",
+          "alt": "Pedicure finish with a hand-painted heart detail",
+          "w": 720,
+          "h": 1280,
+          "ok": true
+        },
+        {
+          "src": "work-brows-shape-720.webp",
+          "alt": "Shaped and defined eyebrows",
+          "w": 720,
+          "h": 719,
+          "ok": true
+        },
+        {
+          "src": "work-milky-mani-720.webp",
+          "alt": "Milky pearl manicure with a heart detail",
+          "w": 720,
+          "h": 897,
+          "ok": true
+        },
+        {
+          "src": "work-brows-720.webp",
+          "alt": "Cleaned and defined eyebrows",
+          "w": 720,
+          "h": 720,
+          "ok": true
+        },
+        {
+          "src": "work-gold-glitter-720.webp",
+          "alt": "Golden glitter nail polish",
+          "w": 720,
+          "h": 720,
+          "ok": true
+        },
+        {
+          "src": "work-lashes-720.webp",
+          "alt": "Long lifted eyelashes",
+          "w": 720,
+          "h": 720,
+          "ok": true
+        },
+        {
+          "src": "work-french-mani-720.webp",
+          "alt": "Pink and white manicured nails",
+          "w": 720,
+          "h": 897,
+          "ok": true
+        },
+        {
+          "src": "work-pedi-jacuzzi-720.webp",
+          "alt": "Pedicure on bare feet",
+          "w": 720,
+          "h": 720,
+          "ok": true
+        },
+        {
+          "src": "work-brows-shape-720.webp",
+          "alt": "Shaped eyebrow arch",
+          "w": 720,
+          "h": 719,
+          "ok": true
+        },
+        {
+          "src": "work-eye-detail-720.webp",
+          "alt": "Close-up of eyelashes after a lift",
+          "w": 720,
+          "h": 720,
+          "ok": true
+        },
+        {
+          "src": "work-feet-heart-720.webp",
+          "alt": "Pedicure finish with a painted heart",
+          "w": 720,
+          "h": 1280,
+          "ok": true
+        },
+        {
+          "src": "work-gold-mani-720.webp",
+          "alt": "Amber gold manicure",
+          "w": 720,
+          "h": 897,
+          "ok": true
+        },
+        {
+          "src": "work-brows-clean-720.webp",
+          "alt": "Neatly cleaned eyebrows",
+          "w": 720,
+          "h": 720,
+          "ok": true
+        },
+        {
+          "src": "work-pedi-soft-720.webp",
+          "alt": "Soft pedicure finish",
+          "w": 720,
+          "h": 720,
+          "ok": true
+        },
+        {
+          "src": "work-gold-glitter-720.webp",
+          "alt": "Golden glitter nail polish, close up",
+          "w": 720,
+          "h": 720,
+          "ok": true
+        },
+        {
+          "src": "logo-mark-560.webp",
+          "alt": "",
+          "w": 560,
+          "h": 627,
+          "ok": true
+        },
+        {
+          "src": "",
+          "alt": "",
+          "w": 0,
+          "h": 0,
+          "ok": false
+        }
+      ],
+      "broken": [],
+      "noAlt": [],
+      "dupIds": [],
+      "overflow": [],
+      "small": [],
+      "contrast": [],
+      "geometry": {
+        "heroCopy": {
+          "x": 100,
+          "y": 288,
+          "w": 576,
+          "h": 477,
+          "b": 765,
+          "r": 676
+        },
+        "heroFig": {
+          "x": 820,
+          "y": 197,
+          "w": 520,
+          "h": 658,
+          "b": 855,
+          "r": 1340
+        },
+        "seal": {
+          "x": 789,
+          "y": 584,
+          "w": 166,
+          "h": 166,
+          "b": 750,
+          "r": 955
+        },
+        "cap": {
+          "x": 1131,
+          "y": 729,
+          "w": 230,
+          "h": 87,
+          "b": 816,
+          "r": 1361
+        },
+        "arch": {
+          "x": 820,
+          "y": 197,
+          "w": 520,
+          "h": 658,
+          "b": 855,
+          "r": 1340
+        },
+        "copyOverFig": 0,
+        "sealOverCap": 0,
+        "sealInView": true,
+        "capInView": true,
+        "sealInsideArchV": true
+      },
+      "fontsLoaded": 6,
+      "fontFamilies": [
+        "Cormorant Garamond",
+        "Jost"
+      ],
+      "console": [],
+      "failed": []
+    },
+    "desktop-ar": {
+      "title": "Hanin & Hala — Nails, Brows & Lashes · Tartus",
+      "lang": "ar",
+      "dir": "rtl",
+      "scrollW": 1440,
+      "clientW": 1440,
+      "docH": 8100,
+      "h1count": 1,
+      "headings": [
+        "H1:جمال، بتفاصيل محسوبة.",
+        "H2:اسمان، ومعيار واحد.",
+        "H2:أربع طرق لتشعري بأنكِ أنتِ.",
+        "H3:الأظافر والمانيكير",
+        "H3:الحواجب",
+        "H3:الرموش",
+        "H3:الباديكير والجاكوزي",
+        "H2:التفاصيل التي تتكلّم.",
+        "H2:الثقة بالنتائج هي سرّ ثقتكم فينا.",
+        "H2:تعالي، ونحن نهتم بالباقي.",
+        "H3:اطلبي موعدك"
+      ],
+      "imgs": [
+        {
+          "src": "logo-mark-560.webp",
+          "alt": "",
+          "w": 560,
+          "h": 627,
+          "ok": true
+        },
+        {
+          "src": "work-milky-mani-720.webp",
+          "alt": "Milky pearl manicure with a hand-painted heart, finished with a protective layer",
+          "w": 576,
+          "h": 717,
+          "ok": true
+        },
+        {
+          "src": "logo-mark-560.webp",
+          "alt": "",
+          "w": 560,
+          "h": 627,
+          "ok": true
+        },
+        {
+          "src": "work-feet-heart-720.webp",
+          "alt": "Pedicure finish with a hand-painted heart detail",
+          "w": 720,
+          "h": 1280,
+          "ok": true
+        },
+        {
+          "src": "work-brows-shape-720.webp",
+          "alt": "Shaped and defined eyebrows",
+          "w": 720,
+          "h": 719,
+          "ok": true
+        },
+        {
+          "src": "work-milky-mani-720.webp",
+          "alt": "Milky pearl manicure with a heart detail",
+          "w": 720,
+          "h": 897,
+          "ok": true
+        },
+        {
+          "src": "work-brows-720.webp",
+          "alt": "Cleaned and defined eyebrows",
+          "w": 720,
+          "h": 720,
+          "ok": true
+        },
+        {
+          "src": "work-gold-glitter-720.webp",
+          "alt": "Golden glitter nail polish",
+          "w": 720,
+          "h": 720,
+          "ok": true
+        },
+        {
+          "src": "work-lashes-720.webp",
+          "alt": "Long lifted eyelashes",
+          "w": 720,
+          "h": 720,
+          "ok": true
+        },
+        {
+          "src": "work-french-mani-720.webp",
+          "alt": "Pink and white manicured nails",
+          "w": 720,
+          "h": 897,
+          "ok": true
+        },
+        {
+          "src": "work-pedi-jacuzzi-720.webp",
+          "alt": "Pedicure on bare feet",
+          "w": 720,
+          "h": 720,
+          "ok": true
+        },
+        {
+          "src": "work-brows-shape-720.webp",
+          "alt": "Shaped eyebrow arch",
+          "w": 720,
+          "h": 719,
+          "ok": true
+        },
+        {
+          "src": "work-eye-detail-720.webp",
+          "alt": "Close-up of eyelashes after a lift",
+          "w": 720,
+          "h": 720,
+          "ok": true
+        },
+        {
+          "src": "work-feet-heart-720.webp",
+          "alt": "Pedicure finish with a painted heart",
+          "w": 720,
+          "h": 1280,
+          "ok": true
+        },
+        {
+          "src": "work-gold-mani-720.webp",
+          "alt": "Amber gold manicure",
+          "w": 720,
+          "h": 897,
+          "ok": true
+        },
+        {
+          "src": "work-brows-clean-720.webp",
+          "alt": "Neatly cleaned eyebrows",
+          "w": 720,
+          "h": 720,
+          "ok": true
+        },
+        {
+          "src": "work-pedi-soft-720.webp",
+          "alt": "Soft pedicure finish",
+          "w": 720,
+          "h": 720,
+          "ok": true
+        },
+        {
+          "src": "work-gold-glitter-720.webp",
+          "alt": "Golden glitter nail polish, close up",
+          "w": 720,
+          "h": 720,
+          "ok": true
+        },
+        {
+          "src": "logo-mark-560.webp",
+          "alt": "",
+          "w": 560,
+          "h": 627,
+          "ok": true
+        },
+        {
+          "src": "work-gold-glitter-1100.webp",
+          "alt": "Golden glitter nail polish",
+          "w": 1100,
+          "h": 1100,
+          "ok": true
+        }
+      ],
+      "broken": [],
+      "noAlt": [],
+      "dupIds": [],
+      "overflow": [],
+      "small": [],
+      "contrast": [],
+      "geometry": {
+        "heroCopy": {
+          "x": 764,
+          "y": 282,
+          "w": 576,
+          "h": 491,
+          "b": 774,
+          "r": 1340
+        },
+        "heroFig": {
+          "x": 100,
+          "y": 199,
+          "w": 520,
+          "h": 658,
+          "b": 857,
+          "r": 620
+        },
+        "seal": {
+          "x": 485,
+          "y": 585,
+          "w": 166,
+          "h": 166,
+          "b": 752,
+          "r": 651
+        },
+        "cap": {
+          "x": 79,
+          "y": 754,
+          "w": 188,
+          "h": 64,
+          "b": 818,
+          "r": 268
+        },
+        "arch": {
+          "x": 100,
+          "y": 199,
+          "w": 520,
+          "h": 658,
+          "b": 857,
+          "r": 620
+        },
+        "copyOverFig": 0,
+        "sealOverCap": 0,
+        "sealInView": true,
+        "capInView": true,
+        "sealInsideArchV": true
+      },
+      "fontsLoaded": 11,
+      "fontFamilies": [
+        "Cormorant Garamond",
+        "Jost",
+        "Tajawal"
+      ]
+    },
+    "mobile": {
+      "title": "Hanin & Hala — Nails, Brows & Lashes · Tartus",
+      "lang": "en",
+      "dir": "ltr",
+      "scrollW": 390,
+      "clientW": 390,
+      "docH": 8902,
+      "h1count": 1,
+      "headings": [
+        "H1:Beauty, finished to the last detail.",
+        "H2:Two names, one standard.",
+        "H2:Four ways to feel like yourself.",
+        "H3:Nails & manicure",
+        "H3:Brows",
+        "H3:Lashes",
+        "H3:Pedicure & jacuzzi",
+        "H2:The details that speak.",
+        "H2:Confidence in the result is why you trust us.",
+        "H2:Come in. We’ll take it from here.",
+        "H3:Request an appointment"
+      ],
+      "imgs": [
+        {
+          "src": "logo-mark-560.webp",
+          "alt": "",
+          "w": 560,
+          "h": 627,
+          "ok": true
+        },
+        {
+          "src": "work-milky-mani-1100.webp",
+          "alt": "Milky pearl manicure with a hand-painted heart, finished with a protective layer",
+          "w": 304,
+          "h": 379,
+          "ok": true
+        },
+        {
+          "src": "logo-mark-560.webp",
+          "alt": "",
+          "w": 560,
+          "h": 627,
+          "ok": true
+        },
+        {
+          "src": "work-feet-heart-720.webp",
+          "alt": "Pedicure finish with a hand-painted heart detail",
+          "w": 720,
+          "h": 1280,
+          "ok": true
+        },
+        {
+          "src": "work-brows-shape-720.webp",
+          "alt": "Shaped and defined eyebrows",
+          "w": 720,
+          "h": 719,
+          "ok": true
+        },
+        {
+          "src": "work-milky-mani-720.webp",
+          "alt": "Milky pearl manicure with a heart detail",
+          "w": 720,
+          "h": 897,
+          "ok": true
+        },
+        {
+          "src": "work-brows-720.webp",
+          "alt": "Cleaned and defined eyebrows",
+          "w": 720,
+          "h": 720,
+          "ok": true
+        },
+        {
+          "src": "work-gold-glitter-720.webp",
+          "alt": "Golden glitter nail polish",
+          "w": 720,
+          "h": 720,
+          "ok": true
+        },
+        {
+          "src": "work-lashes-720.webp",
+          "alt": "Long lifted eyelashes",
+          "w": 720,
+          "h": 720,
+          "ok": true
+        },
+        {
+          "src": "work-french-mani-720.webp",
+          "alt": "Pink and white manicured nails",
+          "w": 720,
+          "h": 897,
+          "ok": true
+        },
+        {
+          "src": "work-pedi-jacuzzi-720.webp",
+          "alt": "Pedicure on bare feet",
+          "w": 720,
+          "h": 720,
+          "ok": true
+        },
+        {
+          "src": "work-brows-shape-720.webp",
+          "alt": "Shaped eyebrow arch",
+          "w": 720,
+          "h": 719,
+          "ok": true
+        },
+        {
+          "src": "work-eye-detail-720.webp",
+          "alt": "Close-up of eyelashes after a lift",
+          "w": 720,
+          "h": 720,
+          "ok": true
+        },
+        {
+          "src": "work-feet-heart-720.webp",
+          "alt": "Pedicure finish with a painted heart",
+          "w": 720,
+          "h": 1280,
+          "ok": true
+        },
+        {
+          "src": "work-gold-mani-720.webp",
+          "alt": "Amber gold manicure",
+          "w": 720,
+          "h": 897,
+          "ok": true
+        },
+        {
+          "src": "work-brows-clean-720.webp",
+          "alt": "Neatly cleaned eyebrows",
+          "w": 720,
+          "h": 720,
+          "ok": true
+        },
+        {
+          "src": "work-pedi-soft-720.webp",
+          "alt": "Soft pedicure finish",
+          "w": 720,
+          "h": 720,
+          "ok": true
+        },
+        {
+          "src": "work-gold-glitter-720.webp",
+          "alt": "Golden glitter nail polish, close up",
+          "w": 720,
+          "h": 720,
+          "ok": true
+        },
+        {
+          "src": "logo-mark-560.webp",
+          "alt": "",
+          "w": 560,
+          "h": 627,
+          "ok": true
+        },
+        {
+          "src": "",
+          "alt": "",
+          "w": 0,
+          "h": 0,
+          "ok": false
+        }
+      ],
+      "broken": [],
+      "noAlt": [],
+      "dupIds": [],
+      "overflow": [],
+      "small": [],
+      "contrast": [],
+      "geometry": {
+        "heroCopy": {
+          "x": 20,
+          "y": 147,
+          "w": 350,
+          "h": 457,
+          "b": 604,
+          "r": 370
+        },
+        "heroFig": {
+          "x": 20,
+          "y": 642,
+          "w": 350,
+          "h": 443,
+          "b": 1085,
+          "r": 370
+        },
+        "seal": {
+          "x": 6,
+          "y": 920,
+          "w": 112,
+          "h": 112,
+          "b": 1032,
+          "r": 118
+        },
+        "cap": {
+          "x": 177,
+          "y": 994,
+          "w": 200,
+          "h": 78,
+          "b": 1072,
+          "r": 377
+        },
+        "arch": {
+          "x": 20,
+          "y": 642,
+          "w": 350,
+          "h": 443,
+          "b": 1085,
+          "r": 370
+        },
+        "copyOverFig": 0,
+        "sealOverCap": 0,
+        "sealInView": true,
+        "capInView": true,
+        "sealInsideArchV": true
+      },
+      "fontsLoaded": 6,
+      "fontFamilies": [
+        "Cormorant Garamond",
+        "Jost"
+      ],
+      "console": [],
+      "failed": []
+    },
+    "tablet": {
+      "title": "Hanin & Hala — Nails, Brows & Lashes · Tartus",
+      "lang": "en",
+      "dir": "ltr",
+      "scrollW": 834,
+      "clientW": 834,
+      "docH": 10459,
+      "h1count": 1,
+      "headings": [
+        "H1:Beauty, finished to the last detail.",
+        "H2:Two names, one standard.",
+        "H2:Four ways to feel like yourself.",
+        "H3:Nails & manicure",
+        "H3:Brows",
+        "H3:Lashes",
+        "H3:Pedicure & jacuzzi",
+        "H2:The details that speak.",
+        "H2:Confidence in the result is why you trust us.",
+        "H2:Come in. We’ll take it from here.",
+        "H3:Request an appointment"
+      ],
+      "imgs": [
+        {
+          "src": "logo-mark-560.webp",
+          "alt": "",
+          "w": 560,
+          "h": 627,
+          "ok": true
+        },
+        {
+          "src": "work-milky-mani-1100.webp",
+          "alt": "Milky pearl manicure with a hand-painted heart, finished with a protective layer",
+          "w": 650,
+          "h": 810,
+          "ok": true
+        },
+        {
+          "src": "logo-mark-560.webp",
+          "alt": "",
+          "w": 560,
+          "h": 627,
+          "ok": true
+        },
+        {
+          "src": "work-feet-heart-720.webp",
+          "alt": "Pedicure finish with a hand-painted heart detail",
+          "w": 720,
+          "h": 1280,
+          "ok": true
+        },
+        {
+          "src": "work-brows-shape-720.webp",
+          "alt": "Shaped and defined eyebrows",
+          "w": 720,
+          "h": 719,
+          "ok": true
+        },
+        {
+          "src": "work-milky-mani-720.webp",
+          "alt": "Milky pearl manicure with a heart detail",
+          "w": 720,
+          "h": 897,
+          "ok": true
+        },
+        {
+          "src": "work-brows-720.webp",
+          "alt": "Cleaned and defined eyebrows",
+          "w": 720,
+          "h": 720,
+          "ok": true
+        },
+        {
+          "src": "work-gold-glitter-720.webp",
+          "alt": "Golden glitter nail polish",
+          "w": 720,
+          "h": 720,
+          "ok": true
+        },
+        {
+          "src": "work-lashes-720.webp",
+          "alt": "Long lifted eyelashes",
+          "w": 720,
+          "h": 720,
+          "ok": true
+        },
+        {
+          "src": "work-french-mani-720.webp",
+          "alt": "Pink and white manicured nails",
+          "w": 720,
+          "h": 897,
+          "ok": true
+        },
+        {
+          "src": "work-pedi-jacuzzi-720.webp",
+          "alt": "Pedicure on bare feet",
+          "w": 720,
+          "h": 720,
+          "ok": true
+        },
+        {
+          "src": "work-brows-shape-720.webp",
+          "alt": "Shaped eyebrow arch",
+          "w": 720,
+          "h": 719,
+          "ok": true
+        },
+        {
+          "src": "work-eye-detail-720.webp",
+          "alt": "Close-up of eyelashes after a lift",
+          "w": 720,
+          "h": 720,
+          "ok": true
+        },
+        {
+          "src": "work-feet-heart-720.webp",
+          "alt": "Pedicure finish with a painted heart",
+          "w": 720,
+          "h": 1280,
+          "ok": true
+        },
+        {
+          "src": "work-gold-mani-720.webp",
+          "alt": "Amber gold manicure",
+          "w": 720,
+          "h": 897,
+          "ok": true
+        },
+        {
+          "src": "work-brows-clean-720.webp",
+          "alt": "Neatly cleaned eyebrows",
+          "w": 720,
+          "h": 720,
+          "ok": true
+        },
+        {
+          "src": "work-pedi-soft-720.webp",
+          "alt": "Soft pedicure finish",
+          "w": 720,
+          "h": 720,
+          "ok": true
+        },
+        {
+          "src": "work-gold-glitter-720.webp",
+          "alt": "Golden glitter nail polish, close up",
+          "w": 720,
+          "h": 720,
+          "ok": true
+        },
+        {
+          "src": "logo-mark-560.webp",
+          "alt": "",
+          "w": 560,
+          "h": 627,
+          "ok": true
+        },
+        {
+          "src": "",
+          "alt": "",
+          "w": 0,
+          "h": 0,
+          "ok": false
+        }
+      ],
+      "broken": [],
+      "noAlt": [],
+      "dupIds": [],
+      "overflow": [],
+      "small": [],
+      "contrast": [],
+      "geometry": {
+        "heroCopy": {
+          "x": 42,
+          "y": 153,
+          "w": 751,
+          "h": 391,
+          "b": 544,
+          "r": 792
+        },
+        "heroFig": {
+          "x": 187,
+          "y": 582,
+          "w": 460,
+          "h": 582,
+          "b": 1164,
+          "r": 647
+        },
+        "seal": {
+          "x": 159,
+          "y": 924,
+          "w": 147,
+          "h": 147,
+          "b": 1071,
+          "r": 307
+        },
+        "cap": {
+          "x": 426,
+          "y": 1043,
+          "w": 230,
+          "h": 87,
+          "b": 1129,
+          "r": 656
+        },
+        "arch": {
+          "x": 187,
+          "y": 582,
+          "w": 460,
+          "h": 582,
+          "b": 1164,
+          "r": 647
+        },
+        "copyOverFig": 0,
+        "sealOverCap": 0,
+        "sealInView": true,
+        "capInView": true,
+        "sealInsideArchV": true
+      },
+      "fontsLoaded": 6,
+      "fontFamilies": [
+        "Cormorant Garamond",
+        "Jost"
+      ],
+      "console": [],
+      "failed": []
+    }
+  },
+  "interactions": {
+    "filters": {
+      "all": 12,
+      "nails": 4,
+      "brows": 3,
+      "lashes": 2,
+      "pedicure": 3
+    },
+    "lightbox": {
+      "open": true,
+      "ok": true,
+      "w": 1100,
+      "src": "work-milky-mani-1100.webp",
+      "cap": "Milky pearl set with protective layer",
+      "afterNext": "work-gold-glitter-1100.webp",
+      "closed": true
+    },
+    "langBack": "en",
+    "booking": {
+      "url": "https://wa.me/963936628680?text=Hello%20Hanin%20%26%20Hala%2C%0AI%E2%80%99d%20like%20to%20book%20an%20appointment.%0A%0AName%3A%20Test%20Client%0AService%3A%20Brows%0APreferred%20d",
+      "decoded": "https://wa.me/963936628680?text=Hello Hanin & Hala,\nI’d like to book an appointment.\n\nName: Test Client\nService: Brows\nPreferred day: Tue 3 Nov\nPreferred time: Evening\n\nNote: First visit"
+    },
+    "validation": {
+      "hidden": false,
+      "text": "Please add your name."
+    },
+    "mobileNav": {
+      "open": true,
+      "expanded": "true",
+      "afterClick": false
+    },
+    "reducedMotion": {
+      "allVisible": true,
+      "marqueeAnim": "none",
+      "count": 47
+    }
+  },
+  "problems": [],
+  "summary": {
+    "problemCount": 0,
+    "pages": {
+      "desktop": {
+        "lang": "en",
+        "dir": "ltr",
+        "scrollW": 1440,
+        "clientW": 1440,
+        "docH": 8034,
+        "images": 20,
+        "broken": 0,
+        "fonts": 6,
+        "families": [
+          "Cormorant Garamond",
+          "Jost"
+        ]
+      },
+      "desktop-ar": {
+        "lang": "ar",
+        "dir": "rtl",
+        "scrollW": 1440,
+        "clientW": 1440,
+        "docH": 8100,
+        "images": 20,
+        "broken": 0,
+        "fonts": 11,
+        "families": [
+          "Cormorant Garamond",
+          "Jost",
+          "Tajawal"
+        ]
+      },
+      "mobile": {
+        "lang": "en",
+        "dir": "ltr",
+        "scrollW": 390,
+        "clientW": 390,
+        "docH": 8902,
+        "images": 20,
+        "broken": 0,
+        "fonts": 6,
+        "families": [
+          "Cormorant Garamond",
+          "Jost"
+        ]
+      },
+      "tablet": {
+        "lang": "en",
+        "dir": "ltr",
+        "scrollW": 834,
+        "clientW": 834,
+        "docH": 10459,
+        "images": 20,
+        "broken": 0,
+        "fonts": 6,
+        "families": [
+          "Cormorant Garamond",
+          "Jost"
+        ]
+      }
+    }
+  }
+}
