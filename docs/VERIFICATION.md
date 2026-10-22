@@ -101,7 +101,7 @@ self-hosted with `font-display: swap`; only the faces actually used are requeste
 
 ## Live preview
 
-- URL: https://trek-payroll-secret-jack.trycloudflare.com
+- URL: https://abo3dam-hub.github.io/Hanin-hala/
 - Served over HTTPS via a Cloudflare quick tunnel, verified with an external
   Playwright run on desktop (1440) and mobile (390): title, `h1`, layout
   (`scrollWidth === clientWidth`) and images all correct, 0 console errors,

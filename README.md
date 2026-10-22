@@ -9,7 +9,7 @@ No build step, no dependencies, no tracking, no backend.
 
 ## Preview
 
-- **Live preview:** https://trek-payroll-secret-jack.trycloudflare.com
+- **Live preview:** https://abo3dam-hub.github.io/Hanin-hala/
   (ephemeral Cloudflare quick tunnel — see [Deploy](#deploy) to publish permanently)
 - Screenshots: [`docs/shots/`](docs/shots) — desktop, tablet, mobile, Arabic, lightbox.
 
