@@ -1,26 +1,26 @@
 {
-  "generated": "2026-10-22T20:19:35.323Z",
+  "generated": "2026-10-22T20:44:08.451Z",
   "pages": {
     "desktop": {
       "title": "Hanin & Hala — Nails, Brows & Lashes · Tartus",
-      "lang": "en",
-      "dir": "ltr",
+      "lang": "ar",
+      "dir": "rtl",
       "scrollW": 1440,
       "clientW": 1440,
-      "docH": 8034,
+      "docH": 8100,
       "h1count": 1,
       "headings": [
-        "H1:Beauty, finished to the last detail.",
-        "H2:Two names, one standard.",
-        "H2:Four ways to feel like yourself.",
-        "H3:Nails & manicure",
-        "H3:Brows",
-        "H3:Lashes",
-        "H3:Pedicure & jacuzzi",
-        "H2:The details that speak.",
-        "H2:Confidence in the result is why you trust us.",
-        "H2:Come in. We’ll take it from here.",
-        "H3:Request an appointment"
+        "H1:جمال، بتفاصيل محسوبة.",
+        "H2:اسمان، ومعيار واحد.",
+        "H2:أربع طرق لتشعري بأنكِ أنتِ.",
+        "H3:الأظافر والمانيكير",
+        "H3:الحواجب",
+        "H3:الرموش",
+        "H3:الباديكير والجاكوزي",
+        "H2:التفاصيل التي تتكلّم.",
+        "H2:الثقة بالنتائج هي سرّ ثقتكم فينا.",
+        "H2:تعالي، ونحن نهتم بالباقي.",
+        "H3:اطلبي موعدك"
       ],
       "imgs": [
         {
@@ -172,44 +172,44 @@
       "contrast": [],
       "geometry": {
         "heroCopy": {
-          "x": 100,
-          "y": 288,
+          "x": 764,
+          "y": 282,
           "w": 576,
-          "h": 477,
-          "b": 765,
-          "r": 676
+          "h": 491,
+          "b": 774,
+          "r": 1340
         },
         "heroFig": {
-          "x": 820,
-          "y": 197,
+          "x": 100,
+          "y": 199,
           "w": 520,
           "h": 658,
-          "b": 855,
-          "r": 1340
+          "b": 857,
+          "r": 620
         },
         "seal": {
-          "x": 789,
-          "y": 584,
+          "x": 485,
+          "y": 585,
           "w": 166,
           "h": 166,
-          "b": 750,
-          "r": 955
+          "b": 752,
+          "r": 651
         },
         "cap": {
-          "x": 1131,
-          "y": 729,
-          "w": 230,
-          "h": 87,
-          "b": 816,
-          "r": 1361
+          "x": 79,
+          "y": 754,
+          "w": 188,
+          "h": 64,
+          "b": 818,
+          "r": 268
         },
         "arch": {
-          "x": 820,
-          "y": 197,
+          "x": 100,
+          "y": 199,
           "w": 520,
           "h": 658,
-          "b": 855,
-          "r": 1340
+          "b": 857,
+          "r": 620
         },
         "copyOverFig": 0,
         "sealOverCap": 0,
@@ -217,10 +217,11 @@
         "capInView": true,
         "sealInsideArchV": true
       },
-      "fontsLoaded": 6,
+      "fontsLoaded": 8,
       "fontFamilies": [
         "Cormorant Garamond",
-        "Jost"
+        "Jost",
+        "Tajawal"
       ],
       "console": [],
       "failed": []
@@ -450,24 +451,24 @@
     },
     "mobile": {
       "title": "Hanin & Hala — Nails, Brows & Lashes · Tartus",
-      "lang": "en",
-      "dir": "ltr",
+      "lang": "ar",
+      "dir": "rtl",
       "scrollW": 390,
       "clientW": 390,
-      "docH": 8902,
+      "docH": 9009,
       "h1count": 1,
       "headings": [
-        "H1:Beauty, finished to the last detail.",
-        "H2:Two names, one standard.",
-        "H2:Four ways to feel like yourself.",
-        "H3:Nails & manicure",
-        "H3:Brows",
-        "H3:Lashes",
-        "H3:Pedicure & jacuzzi",
-        "H2:The details that speak.",
-        "H2:Confidence in the result is why you trust us.",
-        "H2:Come in. We’ll take it from here.",
-        "H3:Request an appointment"
+        "H1:جمال، بتفاصيل محسوبة.",
+        "H2:اسمان، ومعيار واحد.",
+        "H2:أربع طرق لتشعري بأنكِ أنتِ.",
+        "H3:الأظافر والمانيكير",
+        "H3:الحواجب",
+        "H3:الرموش",
+        "H3:الباديكير والجاكوزي",
+        "H2:التفاصيل التي تتكلّم.",
+        "H2:الثقة بالنتائج هي سرّ ثقتكم فينا.",
+        "H2:تعالي، ونحن نهتم بالباقي.",
+        "H3:اطلبي موعدك"
       ],
       "imgs": [
         {
@@ -622,40 +623,40 @@
           "x": 20,
           "y": 147,
           "w": 350,
-          "h": 457,
-          "b": 604,
+          "h": 444,
+          "b": 591,
           "r": 370
         },
         "heroFig": {
           "x": 20,
-          "y": 642,
+          "y": 629,
           "w": 350,
           "h": 443,
-          "b": 1085,
+          "b": 1072,
           "r": 370
         },
         "seal": {
-          "x": 6,
-          "y": 920,
+          "x": 272,
+          "y": 907,
           "w": 112,
           "h": 112,
-          "b": 1032,
-          "r": 118
+          "b": 1019,
+          "r": 384
         },
         "cap": {
-          "x": 177,
-          "y": 994,
-          "w": 200,
-          "h": 78,
-          "b": 1072,
-          "r": 377
+          "x": 13,
+          "y": 999,
+          "w": 180,
+          "h": 60,
+          "b": 1059,
+          "r": 193
         },
         "arch": {
           "x": 20,
-          "y": 642,
+          "y": 629,
           "w": 350,
           "h": 443,
-          "b": 1085,
+          "b": 1072,
           "r": 370
         },
         "copyOverFig": 0,
@@ -664,34 +665,35 @@
         "capInView": true,
         "sealInsideArchV": true
       },
-      "fontsLoaded": 6,
+      "fontsLoaded": 8,
       "fontFamilies": [
         "Cormorant Garamond",
-        "Jost"
+        "Jost",
+        "Tajawal"
       ],
       "console": [],
       "failed": []
     },
     "tablet": {
       "title": "Hanin & Hala — Nails, Brows & Lashes · Tartus",
-      "lang": "en",
-      "dir": "ltr",
+      "lang": "ar",
+      "dir": "rtl",
       "scrollW": 834,
       "clientW": 834,
-      "docH": 10459,
+      "docH": 10426,
       "h1count": 1,
       "headings": [
-        "H1:Beauty, finished to the last detail.",
-        "H2:Two names, one standard.",
-        "H2:Four ways to feel like yourself.",
-        "H3:Nails & manicure",
-        "H3:Brows",
-        "H3:Lashes",
-        "H3:Pedicure & jacuzzi",
-        "H2:The details that speak.",
-        "H2:Confidence in the result is why you trust us.",
-        "H2:Come in. We’ll take it from here.",
-        "H3:Request an appointment"
+        "H1:جمال، بتفاصيل محسوبة.",
+        "H2:اسمان، ومعيار واحد.",
+        "H2:أربع طرق لتشعري بأنكِ أنتِ.",
+        "H3:الأظافر والمانيكير",
+        "H3:الحواجب",
+        "H3:الرموش",
+        "H3:الباديكير والجاكوزي",
+        "H2:التفاصيل التي تتكلّم.",
+        "H2:الثقة بالنتائج هي سرّ ثقتكم فينا.",
+        "H2:تعالي، ونحن نهتم بالباقي.",
+        "H3:اطلبي موعدك"
       ],
       "imgs": [
         {
@@ -846,40 +848,40 @@
           "x": 42,
           "y": 153,
           "w": 751,
-          "h": 391,
-          "b": 544,
+          "h": 352,
+          "b": 505,
           "r": 792
         },
         "heroFig": {
           "x": 187,
-          "y": 582,
+          "y": 543,
           "w": 460,
           "h": 582,
-          "b": 1164,
+          "b": 1125,
           "r": 647
         },
         "seal": {
-          "x": 159,
-          "y": 924,
+          "x": 527,
+          "y": 885,
           "w": 147,
           "h": 147,
-          "b": 1071,
-          "r": 307
+          "b": 1032,
+          "r": 675
         },
         "cap": {
-          "x": 426,
-          "y": 1043,
-          "w": 230,
-          "h": 87,
-          "b": 1129,
-          "r": 656
+          "x": 178,
+          "y": 1026,
+          "w": 188,
+          "h": 64,
+          "b": 1090,
+          "r": 366
         },
         "arch": {
           "x": 187,
-          "y": 582,
+          "y": 543,
           "w": 460,
           "h": 582,
-          "b": 1164,
+          "b": 1125,
           "r": 647
         },
         "copyOverFig": 0,
@@ -888,10 +890,11 @@
         "capInView": true,
         "sealInsideArchV": true
       },
-      "fontsLoaded": 6,
+      "fontsLoaded": 8,
       "fontFamilies": [
         "Cormorant Garamond",
-        "Jost"
+        "Jost",
+        "Tajawal"
       ],
       "console": [],
       "failed": []
@@ -910,7 +913,7 @@
       "ok": true,
       "w": 1100,
       "src": "work-milky-mani-1100.webp",
-      "cap": "Milky pearl set with protective layer",
+      "cap": "مانيكير لؤلؤي مع طبقة حماية",
       "afterNext": "work-french-mani-1100.webp",
       "closed": true
     },
@@ -939,17 +942,18 @@
     "problemCount": 0,
     "pages": {
       "desktop": {
-        "lang": "en",
-        "dir": "ltr",
+        "lang": "ar",
+        "dir": "rtl",
         "scrollW": 1440,
         "clientW": 1440,
-        "docH": 8034,
+        "docH": 8100,
         "images": 20,
         "broken": 0,
-        "fonts": 6,
+        "fonts": 8,
         "families": [
           "Cormorant Garamond",
-          "Jost"
+          "Jost",
+          "Tajawal"
         ]
       },
       "desktop-ar": {
@@ -968,31 +972,33 @@
         ]
       },
       "mobile": {
-        "lang": "en",
-        "dir": "ltr",
+        "lang": "ar",
+        "dir": "rtl",
         "scrollW": 390,
         "clientW": 390,
-        "docH": 8902,
+        "docH": 9009,
         "images": 20,
         "broken": 0,
-        "fonts": 6,
+        "fonts": 8,
         "families": [
           "Cormorant Garamond",
-          "Jost"
+          "Jost",
+          "Tajawal"
         ]
       },
       "tablet": {
-        "lang": "en",
-        "dir": "ltr",
+        "lang": "ar",
+        "dir": "rtl",
         "scrollW": 834,
         "clientW": 834,
-        "docH": 10459,
+        "docH": 10426,
         "images": 20,
         "broken": 0,
-        "fonts": 6,
+        "fonts": 8,
         "families": [
           "Cormorant Garamond",
-          "Jost"
+          "Jost",
+          "Tajawal"
         ]
       }
     }

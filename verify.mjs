@@ -180,9 +180,11 @@ await page.waitForTimeout(300);
 report.interactions.lightbox.closed = await page.evaluate(() => !document.getElementById('lb').open);
 await page.click('.chip[data-filter="all"]');
 
-// language
+// language (ensure starting from EN)
 await page.evaluate(() => window.scrollTo(0, 0));
 await page.waitForTimeout(500);
+const cur = await page.evaluate(() => document.documentElement.lang);
+if (cur !== 'en') { await page.click('#lang'); await page.waitForTimeout(800); }
 await page.click('#lang');
 await page.waitForTimeout(800);
 const ar = await page.evaluate(AUDIT);
