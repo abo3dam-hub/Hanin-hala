@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-22T19:58:21.058Z",
+  "generated": "2026-10-22T20:19:35.323Z",
   "pages": {
     "desktop": {
       "title": "Hanin & Hala — Nails, Brows & Lashes · Tartus",
@@ -73,8 +73,8 @@
           "ok": true
         },
         {
-          "src": "work-gold-glitter-720.webp",
-          "alt": "Golden glitter nail polish",
+          "src": "work-pedi-toe-720.webp",
+          "alt": "Polished toenails",
           "w": 720,
           "h": 720,
           "ok": true
@@ -122,10 +122,10 @@
           "ok": true
         },
         {
-          "src": "work-gold-mani-720.webp",
-          "alt": "Amber gold manicure",
+          "src": "work-pedi-soft-720.webp",
+          "alt": "Soft pedicure finish",
           "w": 720,
-          "h": 897,
+          "h": 720,
           "ok": true
         },
         {
@@ -143,8 +143,8 @@
           "ok": true
         },
         {
-          "src": "work-gold-glitter-720.webp",
-          "alt": "Golden glitter nail polish, close up",
+          "src": "work-pedi-jacuzzi-720.webp",
+          "alt": "Jacuzzi pedicure, close up",
           "w": 720,
           "h": 720,
           "ok": true
@@ -297,8 +297,8 @@
           "ok": true
         },
         {
-          "src": "work-gold-glitter-720.webp",
-          "alt": "Golden glitter nail polish",
+          "src": "work-pedi-toe-720.webp",
+          "alt": "Polished toenails",
           "w": 720,
           "h": 720,
           "ok": true
@@ -346,10 +346,10 @@
           "ok": true
         },
         {
-          "src": "work-gold-mani-720.webp",
-          "alt": "Amber gold manicure",
+          "src": "work-pedi-soft-720.webp",
+          "alt": "Soft pedicure finish",
           "w": 720,
-          "h": 897,
+          "h": 720,
           "ok": true
         },
         {
@@ -367,8 +367,8 @@
           "ok": true
         },
         {
-          "src": "work-gold-glitter-720.webp",
-          "alt": "Golden glitter nail polish, close up",
+          "src": "work-pedi-jacuzzi-720.webp",
+          "alt": "Jacuzzi pedicure, close up",
           "w": 720,
           "h": 720,
           "ok": true
@@ -381,10 +381,10 @@
           "ok": true
         },
         {
-          "src": "work-gold-glitter-1100.webp",
-          "alt": "Golden glitter nail polish",
+          "src": "work-french-mani-1100.webp",
+          "alt": "Pink and white manicured nails",
           "w": 1100,
-          "h": 1100,
+          "h": 1371,
           "ok": true
         }
       ],
@@ -520,8 +520,8 @@
           "ok": true
         },
         {
-          "src": "work-gold-glitter-720.webp",
-          "alt": "Golden glitter nail polish",
+          "src": "work-pedi-toe-720.webp",
+          "alt": "Polished toenails",
           "w": 720,
           "h": 720,
           "ok": true
@@ -569,10 +569,10 @@
           "ok": true
         },
         {
-          "src": "work-gold-mani-720.webp",
-          "alt": "Amber gold manicure",
+          "src": "work-pedi-soft-720.webp",
+          "alt": "Soft pedicure finish",
           "w": 720,
-          "h": 897,
+          "h": 720,
           "ok": true
         },
         {
@@ -590,8 +590,8 @@
           "ok": true
         },
         {
-          "src": "work-gold-glitter-720.webp",
-          "alt": "Golden glitter nail polish, close up",
+          "src": "work-pedi-jacuzzi-720.webp",
+          "alt": "Jacuzzi pedicure, close up",
           "w": 720,
           "h": 720,
           "ok": true
@@ -744,8 +744,8 @@
           "ok": true
         },
         {
-          "src": "work-gold-glitter-720.webp",
-          "alt": "Golden glitter nail polish",
+          "src": "work-pedi-toe-720.webp",
+          "alt": "Polished toenails",
           "w": 720,
           "h": 720,
           "ok": true
@@ -793,10 +793,10 @@
           "ok": true
         },
         {
-          "src": "work-gold-mani-720.webp",
-          "alt": "Amber gold manicure",
+          "src": "work-pedi-soft-720.webp",
+          "alt": "Soft pedicure finish",
           "w": 720,
-          "h": 897,
+          "h": 720,
           "ok": true
         },
         {
@@ -814,8 +814,8 @@
           "ok": true
         },
         {
-          "src": "work-gold-glitter-720.webp",
-          "alt": "Golden glitter nail polish, close up",
+          "src": "work-pedi-jacuzzi-720.webp",
+          "alt": "Jacuzzi pedicure, close up",
           "w": 720,
           "h": 720,
           "ok": true
@@ -900,10 +900,10 @@
   "interactions": {
     "filters": {
       "all": 12,
-      "nails": 4,
+      "nails": 2,
       "brows": 3,
       "lashes": 2,
-      "pedicure": 3
+      "pedicure": 5
     },
     "lightbox": {
       "open": true,
@@ -911,7 +911,7 @@
       "w": 1100,
       "src": "work-milky-mani-1100.webp",
       "cap": "Milky pearl set with protective layer",
-      "afterNext": "work-gold-glitter-1100.webp",
+      "afterNext": "work-french-mani-1100.webp",
       "closed": true
     },
     "langBack": "en",
