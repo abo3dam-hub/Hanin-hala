@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Arial, sans-serif;
+}
+
+body {
+  background: #1a1a1a;
+  color: white;
+  direction: rtl;
+}
+
+.container {
+  padding: 1rem;
+}
+
+.card {
+  background: #2d2d2d;
+  border-radius: 12px;
+  padding: 1rem;
+  margin-bottom: 0.75rem;
+  border-right: 4px solid #ff6b6b;
+}
