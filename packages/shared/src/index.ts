@@ -162,8 +162,8 @@ export interface PrintJob {
   printedAt?: string;
 }
 
-export interface ApiResponse<T> = {
+export interface ApiResponse<T> {
   ok: boolean;
   data?: T;
   error?: { code: string; message: string };
-};
+}

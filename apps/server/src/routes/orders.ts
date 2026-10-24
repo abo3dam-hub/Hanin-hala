@@ -16,16 +16,16 @@ export async function ordersRoutes(server: FastifyInstance) {
 
   server.post('/', { preHandler: [server.authenticate] }, async (request: any, reply) => {
     const { restaurantId, sub } = request.user;
-    const { tableId, source = 'WAITER', notes } = request.body as any;
+    const { tableId, tableSessionId, source = 'WAITER', notes } = request.body as any;
     const client = await server.pg.connect();
     try {
       await client.query('BEGIN');
       const numRes = await client.query(`SELECT COALESCE(MAX(order_number), 0) + 1 as next FROM orders WHERE restaurant_id = $1`, [restaurantId]);
       const orderNumber = numRes.rows[0].next;
       const { rows } = await client.query(
-        `INSERT INTO orders (restaurant_id, table_id, order_number, source, status, opened_by_user_id, waiter_user_id, notes)
-         VALUES ($1, $2, $3, $4, 'OPEN', $5, $6, $7) RETURNING *`,
-        [restaurantId, tableId || null, orderNumber, source, sub, sub, notes || null]
+        `INSERT INTO orders (restaurant_id, table_id, table_session_id, order_number, source, status, opened_by_user_id, waiter_user_id, notes)
+         VALUES ($1, $2, $3, $4, $5, 'OPEN', $6, $7, $8) RETURNING *`,
+        [restaurantId, tableId || null, tableSessionId || null, orderNumber, source, sub, sub, notes || null]
       );
       await client.query('COMMIT');
       return { ok: true, data: rows[0] };
@@ -38,10 +38,20 @@ export async function ordersRoutes(server: FastifyInstance) {
     }
   });
 
+  server.get('/:id/items', { preHandler: [server.authenticate] }, async (request: any) => {
+    const { restaurantId } = request.user;
+    const { id } = request.params as any;
+    const { rows } = await server.pg.query(
+      `SELECT * FROM order_items WHERE order_id=$1 AND restaurant_id=$2 ORDER BY created_at ASC`,
+      [id, restaurantId]
+    );
+    return { ok: true, data: rows };
+  });
+
   server.post('/:id/items', { preHandler: [server.authenticate] }, async (request: any, reply) => {
     const { restaurantId } = request.user;
     const { id } = request.params as any;
-    const { items } = request.body as any; // [{productId, quantity, notes}]
+    const { items } = request.body as any; // [{productId, quantity, notes, variantId,...}]
     if (!Array.isArray(items) || items.length === 0) {
       return reply.code(400).send({ ok: false, error: { code: 'VALIDATION_ERROR', message: 'العناصر مطلوبة' } });
     }
@@ -52,14 +62,32 @@ export async function ordersRoutes(server: FastifyInstance) {
         const pRes = await client.query(`SELECT id, name_ar, price_cents FROM products WHERE id=$1 AND restaurant_id=$2`, [it.productId, restaurantId]);
         if (pRes.rows.length === 0) continue;
         const p = pRes.rows[0];
+        let unitPrice = p.price_cents;
+        let variantName: string | null = null;
+        if (it.variantId) {
+          const vRes = await client.query(`SELECT name_ar, price_cents FROM product_variants WHERE id=$1 AND product_id=$2 AND restaurant_id=$3`, [it.variantId, p.id, restaurantId]);
+          if (vRes.rows.length > 0) {
+            variantName = vRes.rows[0].name_ar;
+            unitPrice = vRes.rows[0].price_cents;
+          }
+        }
         await client.query(
-          `INSERT INTO order_items (restaurant_id, order_id, product_id, product_name_snapshot, product_price_snapshot_cents, quantity, unit_price_cents, notes, status)
-           VALUES ($1, $2, $3, $4, $5, $6, $7, $8, 'PENDING')`,
-          [restaurantId, id, p.id, p.name_ar, p.price_cents, it.quantity || 1, p.price_cents, it.notes || null]
+          `INSERT INTO order_items (restaurant_id, order_id, product_id, product_name_snapshot, product_price_snapshot_cents, quantity, unit_price_cents, notes, status, variant_id, variant_name_snapshot, modifiers_snapshot, modifiers_total_cents)
+           VALUES ($1, $2, $3, $4, $5, $6, $7, $8, 'PENDING', $9, $10, $11, $12)`,
+          [restaurantId, id, p.id, p.name_ar, unitPrice, it.quantity || 1, unitPrice, it.notes || null, it.variantId || null, variantName, it.modifiers ? JSON.stringify(it.modifiers) : null, it.modifiersTotalCents || 0]
         );
       }
       await client.query(`UPDATE orders SET status='SENT_TO_KITCHEN', updated_at=NOW() WHERE id=$1 AND restaurant_id=$2`, [id, restaurantId]);
       await client.query('COMMIT');
+      // broadcast
+      try {
+        if ((server as any).websocketServer) {
+          const msg = JSON.stringify({ type: 'order_updated', payload: { orderId: id, restaurantId } });
+          (server as any).websocketServer.clients.forEach((client: any) => {
+            if (client.readyState === 1) client.send(msg);
+          });
+        }
+      } catch (e) {}
       return { ok: true };
     } catch (e) {
       await client.query('ROLLBACK');
@@ -82,5 +110,34 @@ export async function ordersRoutes(server: FastifyInstance) {
       [restaurantId]
     );
     return { ok: true, data: rows };
+  });
+
+  server.patch('/items/:itemId/status', { preHandler: [server.authenticate] }, async (request: any, reply) => {
+    const { restaurantId, sub } = request.user;
+    const { itemId } = request.params as any;
+    const { status } = request.body as any;
+    const allowed = ['PENDING', 'SENT', 'PREPARING', 'READY', 'SERVED', 'CANCELLED'];
+    if (!allowed.includes(status)) {
+      return reply.code(400).send({ ok: false, error: { code: 'INVALID_STATUS', message: 'حالة غير صالحة' } });
+    }
+    try {
+      const { rows } = await server.pg.query(
+        `UPDATE order_items SET status=$1, updated_at=NOW() WHERE id=$2 AND restaurant_id=$3 RETURNING order_id`,
+        [status, itemId, restaurantId]
+      );
+      if (rows.length === 0) return reply.code(404).send({ ok: false, error: { code: 'NOT_FOUND', message: 'غير موجود' } });
+      try {
+        if ((server as any).websocketServer) {
+          const msg = JSON.stringify({ type: 'item_status_changed', payload: { itemId, status, orderId: rows[0].order_id } });
+          (server as any).websocketServer.clients.forEach((client: any) => {
+            if (client.readyState === 1) client.send(msg);
+          });
+        }
+      } catch (e) {}
+      return { ok: true };
+    } catch (e) {
+      server.log.error(e);
+      return reply.code(500).send({ ok: false, error: { code: 'UPDATE_FAILED', message: 'فشل التحديث' } });
+    }
   });
 }

@@ -13,6 +13,7 @@ import { importRoutes } from './routes/import.js';
 import { tablesRoutes } from './routes/tables.js';
 import { ordersRoutes } from './routes/orders.js';
 import { wsHandler } from './plugins/ws.js';
+import { cashierRoutes } from './routes/cashier.js';
 
 dotenv.config();
 
