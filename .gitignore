@@ -1,0 +1,27 @@
+# dependencies
+node_modules/
+
+# build output
+dist/
+build/
+
+# typescript incremental build info
+*.tsbuildinfo
+
+# environment
+.env
+.env.*
+
+# logs
+*.log
+npm-debug.log*
+
+# editor / OS
+.DS_Store
+.vscode/
+.idea/
+
+# opencode
+opencode.json*
+.opencode/
+*.opencode.*
