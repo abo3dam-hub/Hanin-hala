@@ -6039,6 +6039,103 @@ code {
 }
 
 /* ==========================================================================
+   Mobile overflow & cart-drawer fixes (2026-11-11)
+   Root causes found at 390px: the shop concern filter row
+   (.chip-row--scroll, nowrap) sized the .shop-filters grid column to its
+   max-content (~985px), so phones zoomed out / panned sideways and the
+   fixed cart drawer landed outside the visible area. Decorative elements
+   in .intro-visual also protruded past the viewport (~27px), and at
+   <=760px the drawer panel was width:100%, leaving no tappable backdrop
+   and only a small icon-only close button.
+   ========================================================================== */
+
+html,
+body {
+  overflow-x: clip;
+}
+
+.shop-filters {
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.filter-group {
+  min-width: 0;
+  max-width: 100%;
+}
+
+.chip-row {
+  min-width: 0;
+  max-width: 100%;
+}
+
+.cart-drawer {
+  overscroll-behavior: contain;
+}
+
+.cart-drawer__close {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 44px;
+  padding: 8px 16px;
+  border: 1px solid var(--line-strong);
+  border-radius: 999px;
+  background: var(--white);
+  color: var(--wine);
+  font-size: 0.84rem;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+.cart-drawer__close:hover {
+  background: var(--blush-soft);
+}
+
+@media (max-width: 760px) {
+  .shop-toolbar {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .shop-sort {
+    justify-content: space-between;
+  }
+
+  .shop-sort select {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .filter-group {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .filter-label {
+    min-width: 0;
+    padding-top: 0;
+  }
+
+  .filter-group .chip-row {
+    width: 100%;
+  }
+
+  .intro-visual__accent {
+    left: 0;
+  }
+
+  .intro-visual__quote {
+    right: 0;
+  }
+
+  /* Keep a visible, tappable backdrop strip beside the panel so the
+     drawer can always be dismissed by tapping outside it. */
+  .cart-drawer__panel {
+    width: min(440px, 92vw);
+  }
+}
+
+/* ==========================================================================
    Motion preferences
    ========================================================================== */
 

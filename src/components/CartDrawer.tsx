@@ -56,8 +56,9 @@ export const CartDrawer = () => {
             <h2>سلة التسوق</h2>
             <p>{totalItems > 0 ? `${totalItems} منتجًا في السلة` : 'السلة فارغة حاليًا'}</p>
           </div>
-          <button ref={closeRef} className="icon-button" type="button" onClick={closeCart} aria-label="إغلاق السلة">
-            <CloseIcon />
+          <button ref={closeRef} className="cart-drawer__close" type="button" onClick={closeCart} aria-label="إغلاق السلة">
+            <CloseIcon width={16} height={16} />
+            إغلاق
           </button>
         </header>
 
